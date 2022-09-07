@@ -1,15 +1,7 @@
-# What is Explorer?
+## Stage 02 
 
-### Explorer is Rocketseat Coding School program that will teach you how to become a developer and get access your first job.
+* Challenge -2 - debutant challenge - fixing bugs in code.
+This challenge allowed me to fix HTML and CSS codes in order to purpose Figmas's project.
 
----
-
-O Explorer é o programa que vai te ensinar a se posicionar como um profissional de programação e acessar a sua primeira oportunidade no mercado.
-
-O Explorer foi criado com um método inteligente e eficiente para te ajudar a evoluir habilidades técnicas e comportamentais específicas que farão de você um profissional pronto para lidar com desafios do mundo real.
-
-Mas como ele funciona?
-Nós trabalharemos juntos. Desde os fundamentos até as principais ferramentas que você precisa para acessar a sua primeira oportunidade utilizando o método 7-2-1.
-
-Ou seja, você vai dominar coding, networking e branding. Isso significa que você vai se preparar e se sentir seguro(a) para assumir desafios do mundo real. Desenvolver cada um desses aspectos te fará um dev muito mais qualificado para o mercado de trabalho, e isso vai aumentar tuas chances de ser sempre a primeira opção dos recrutadores.
-
+* Desafio 02 - desafio-iniciante corrgindo bugs. 
+Neste desafio reestruturei os códigos HTML e CSS colocando-os em acordo com a proposta contida no Figma do projeto. 
