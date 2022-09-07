@@ -6,4 +6,4 @@ This challenge allowed me to fix semantic HTML. Semantic helps search engine wor
 
 ### Intermediário - Semântica e acessibilidade.
 
-Neste projeto reestruturei a parte semântica com objtivo de organizar a página e melhorar a performance dos motores de busca.
+Neste projeto reestruturei a parte semântica com objetivo de organizar a página e melhorar a performance dos motores de busca.
