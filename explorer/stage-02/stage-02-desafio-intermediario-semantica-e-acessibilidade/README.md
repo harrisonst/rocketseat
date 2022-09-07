@@ -2,7 +2,7 @@
 
 ### Intermediate challenge - semantic and accessibility
 
-This challenge allowed me to fix semantic HTML. Semantic helps search engine work better and organized.
+This challenge allowed me to fix semantic HTML. Semantic helps search engine works better and organized.
 
 ### Intermediário - Semântica e acessibilidade.
 
