@@ -9,26 +9,23 @@ nav {
   border: 1px solid red;
   font-family: 'JetBrains Mono', monospace;
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-between;  
   
   color:#7D7987 ;       
 }
 
-.padlock-top {
-  position: absolute;
-  width: 168px;
-  left: 2px;
-  top: 0px;
-  border-radius: 0px;
-
+#r {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 24px;
+  text-align: center;
 }
 
-.r {
-font-family: JetBrains Mono;
-font-size: 24px;
-text-align: center;
-
+#padlock-top{
+  height: 21px;
+  width: 18.05555534362793px;
+  left: 2px;
+  top: 0px;
+  border-radius: nullpx;
 
 }
 
@@ -38,8 +35,18 @@ text-align: center;
   padding-top: 65px;
 }
 
-.footer {
+#texto #img1 {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+footer {
   font-family:'JetBrains Mono', monospace;
   color: #FFFFFF;
-  text-align: center;
+
+
+  display: flex;
+  justify-content: center;
+
 }
