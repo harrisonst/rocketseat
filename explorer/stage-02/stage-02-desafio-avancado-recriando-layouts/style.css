@@ -1,19 +1,21 @@
 body {
+  margin: 0;
   border: 1px solid red;
   background-color:#2C2B3D;
   color: #7D7987;
+  
 }
 
 nav {
   border: 1px solid red;
   font-family: 'JetBrains Mono', monospace;
   color:#7D7987 ;
-  
+    
 }
 
-section .texto {
+ section .img1 {
   font-family: 'Open Sans', sans-serif;
-  justify-content: space-between;
+  justify-content:space-between;
 
 }
 
@@ -27,5 +29,5 @@ section .texto {
 .footer {
   font-family:'JetBrains Mono', monospace;
   color: #FFFFFF;
-  ad
+  text-align: center;
 }
