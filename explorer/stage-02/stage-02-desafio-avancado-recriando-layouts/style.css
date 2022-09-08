@@ -2,28 +2,40 @@ body {
   margin: 0;
   border: 1px solid red;
   background-color:#2C2B3D;
-  color: #7D7987;
-  
+  color: #7D7987;  
 }
 
 nav {
   border: 1px solid red;
   font-family: 'JetBrains Mono', monospace;
-  color:#7D7987 ;
-    
+  display: flex;
+  justify-content: space-between;
+  
+  
+  color:#7D7987 ;       
 }
 
- section .img1 {
-  font-family: 'Open Sans', sans-serif;
-  justify-content:space-between;
+.padlock-top {
+  position: absolute;
+  width: 168px;
+  left: 2px;
+  top: 0px;
+  border-radius: 0px;
 
 }
 
-.page {
-  margin: 1100px;
+.r {
+font-family: JetBrains Mono;
+font-size: 24px;
+text-align: center;
+
+
+}
+
+ main {
+  width: 1100px;
   margin: 0 auto;
   padding-top: 65px;
-  
 }
 
 .footer {
