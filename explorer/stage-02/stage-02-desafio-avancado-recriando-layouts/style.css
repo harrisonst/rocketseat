@@ -1,52 +1,119 @@
 body {
-  margin: 0;
-  border: 1px solid red;
-  background-color:#2C2B3D;
-  color: #7D7987;  
+  margin-top: 0;
+  width: 1300px auto;
+  background-color: #2c2b3d;
+}
+
+#page {
+  width: 1100px auto;
+  margin: 70px 100px;
+  padding-top: 0;
 }
 
 nav {
-  border: 1px solid red;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   display: flex;
-  justify-content: space-between;  
-  
-  color:#7D7987 ;       
+  justify-content: space-between;
+  color: #ffffff;
+  align-items: center;
+  margin-top: 0;
 }
 
-#r {
-  font-family: 'JetBrains Mono', monospace;
+#logo {
+  width: 170px;
   font-size: 24px;
-  text-align: center;
+  font-weight: bold;
 }
 
-#padlock-top{
+ul {
+  font-size: 14px;
+  list-style: none;
+  display: flex;
+  gap: 65px;
+  padding: 0;
+  justify-content: space-between;
+}
+
+ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul li :hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+#padlock-top {
   height: 21px;
   width: 18.05555534362793px;
   left: 2px;
   top: 0px;
   border-radius: nullpx;
-
 }
 
- main {
-  width: 1100px;
-  margin: 0 auto;
-  padding-top: 65px;
-}
-
-#texto #img1 {
+main {
   display: flex;
   justify-content: space-between;
+  gap: 75px;
+}
 
+h1 {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 40px;
+  margin: 0;
+  padding: 0px;
+  padding-right: 0px;
+  color: #ffffff;
+}
+
+.green-text {
+  font-weight: bold;
+  color: #00bfa6;
+}
+
+section {
+  font-family: Open Sans;
+}
+
+#text-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 40px;
+  color: #c2c2c2;
+}
+
+.bold {
+  font-weight: bold;
+  color: #c2c2c2;
 }
 
 footer {
-  font-family:'JetBrains Mono', monospace;
-  color: #FFFFFF;
+  height: 70px;
+}
 
-
-  display: flex;
+.line {
+  width: 565px;
+  border: 1px solid #00bfa6;
   justify-content: center;
+}
 
+.footer-text {
+  text-decoration: none;
+  font-family: "JetBrains Mono", monospace;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.footer-text :hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+.padlock-botton {
+  padding: 0px;
+  margin: -15px 0px;
 }
