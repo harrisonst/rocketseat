@@ -39,7 +39,7 @@ body::before {
 
 .page {
   max-width: 38.4rem; 
-  margin: auto;    
+  margin: 0 auto;    
 }  
 
 header {
@@ -102,6 +102,12 @@ main p {
   color: #23053A;
 }
 
+.card {
+  position: relative;
+  animation-name: topdown;
+  animation-duration: 700ms;
+}
+
 main .card img {
   max-width: 100%;
   height: auto; 
@@ -109,9 +115,11 @@ main .card img {
   object-fit: cover;
   margin-bottom: 3.6rem; 
 
+  transition: all 350ms;
+
 }
 
-.card h2 {
+.card h2 { 
   
   font-family:var(--ff-heading);
   color: var(--fc-h2);
@@ -121,18 +129,55 @@ main .card img {
   letter-spacing: 0.05em; 
   display: flex;  
   justify-content: space-around;
-   margin-right: 1rem;
+
+  animation-name: downtop;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+  
 
 }
 
 main .card span {
   width: 11.2rem;
   background-color: var(--bg--span);
-
-  position: absolute;
-  border-radius: 20px;  
+  margin-top: 1.6rem;
+  display: flex;
+  justify-content: space-around;
   margin-left: 19.2rem;
-  margin-top: 1.6rem; 
- 
+
+  position: absolute;  
+  border-radius: 20px;   
+
+  animation-name: topdown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  
 }
 
+@keyframes downtop {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px)
+  }
+
+  100% {
+    opacity: 1;
+    transform:  translateY(0);
+  }
+}
+
+@keyframes topdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px)
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+    transform:  translateY(0px);
+  }
+}
