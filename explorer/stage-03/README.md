@@ -7,4 +7,3 @@
 * HTML Responsive
 * Mobile First
 * Animation Grid
-git 
