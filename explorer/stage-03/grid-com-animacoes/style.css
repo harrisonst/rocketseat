@@ -40,10 +40,9 @@ body::before {
 .page {
   max-width: 128rem;
   display: grid;
-  grid-template-columns: 37.7rem 128rem;
+  grid-template-columns: 37.7rem 90rem;
   max-height: 72rem;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 header {
@@ -65,9 +64,7 @@ header {
 
 header .title {
   max-width: 100%;
-
   margin-top: 3.2rem;
-
   background: #cbc0d3;
 }
 
@@ -93,41 +90,81 @@ header p {
   height: 26.2rem;
   display: flex;
   align-items: center;
-  text-align: center;  
+  text-align: center;
   margin: 3.2rem 4.8rem 0 5.4rem;
-  width: fit-content;  
+  width: fit-content;
 }
 
 main {
-  width: 90.5rem;
-  background: #eff1ff;
+  max-width: 90.1rem;
+  background: var(--background-card);
   height: 72rem;
+
+  display: grid;
+  grid-template-columns: 22rem 22rem 22rem;
+  gap: 3.2rem;
+  padding-top: 6.4rem;
+  padding-left: 9.8rem;
+  padding-right: 8.1rem;
 }
 
-.card img {
+.box-01 {
+  display: grid;
+  align-content: space-between;
+}
 
-  border-radius: 20px;
+.box-02 {
+  display: grid;
+  align-content: space-between;
+}
+
+.box-03 {
+  display: grid;
+  align-content: space-between;
+}
+
+.box-01 .box-02 .box-03 img {
   animation-name: downtop;
   animation-duration: 700ms;
   animation-fill-mode: forwards;
 }
 
 main .card {
-  width: 11.2rem;
   background-color: var(--background-card);
-  margin-top: 1.6rem;
-  
-  margin-left: 19.2rem;
 
   animation-name: topdown;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
+main .card .retangle-220x150 img {
+  border-radius: 20px;
+  width: 22rem;
+  height: 15rem;
+  object-fit: cover;
+}
+
+main .card .retangle-220x350 img {
+  border-radius: 20px;
+  width: 22rem;
+  height: 35rem;
+  object-fit: cover;
+}
+
 footer {
   font-family: var(--font-family-footer);
   font-size: 1.4rem;
   color: var(--font-color-footer);
+
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-items: center;
 }
 
 footer a {
@@ -168,30 +205,37 @@ footer a:hover {
   }
 }
 
-/*a partir de 500px a tela irá ser alterada*/
-@media (min-width: 400px) { 
+/*a partir de 500px a tela será alterada*/
+@media (min-width: 500px) {
   .page {
     max-width: 128rem;
   }
   :root {
     --font-size-h1: 4rem;
   }
-  main {
-    grid-template-areas:
-      "A B B"
-      "C C D";
+
+  .main {
+    max-width: 80rem;
+    max-height: 72rem;
   }
 
-  main div:nth-child(1) {
-    grid-area: A;
+  .retangle-220x150 {
+    max-width: 22rem;
+    max-height: 15rem;
   }
-  main div:nth-child(2) {
-    grid-area: B;
+
+  .retangle-220x350 {
+    width: 22rem;
+    height: 35rem;
   }
-  main div:nth-child(3) {
-    grid-area: C;
-  }
-  main div:nth-child(4) {
-    grid-area: B;
+
+  main {
+    width: 90.5rem;
+    background: var(--background-card);
+    height: 72rem;
+
+    display: grid;
+    grid-template-columns: 22rem 22rem 22rem;
+    gap: 3.2rem;
   }
 }
