@@ -19,13 +19,17 @@ firstNote = Number(firstNote);
 secondNote = Number(secondNote);
 thirdNote = Number(thirdNote);
 
-let result = firstNote + secondNote + thirdNote;
+let result = ((firstNote + secondNote + thirdNote) / 3);
 
-if (firstNote + secondNote + thirdNote >= 6) {
-  alert('Parabéns, ' + studentName + '. Sua nota é ' + result + '. Você foi aprovado!');
+if (result >= 6) {
+  alert('Parabéns, ' + studentName + '. Sua nota bimestral é ' + result.toFixed(2).replace('.',',') + '. Você foi aprovado!');
 
 } else {
-  alert('Olá, ' + studentName + '. Você foi reprovado. Não desanime. Sua nota é ' + result + '. Dê o seu melhor para a prova de recuperação!');
+  alert('Olá, ' + studentName + '. Você foi reprovado. Não desanime. Sua nota bimestral é ' + result.toFixed(2).replace('.',',') + '. Dê o seu melhor para a prova de recuperação!');
 }
 
+/*    let average = (Number(firstNote) + Number(secondNote) + Number(thirdNote)) / 3;
+      let result = average > 6
 
+      pay attention: result.toFixed(2).replace('.',',')
+ */
