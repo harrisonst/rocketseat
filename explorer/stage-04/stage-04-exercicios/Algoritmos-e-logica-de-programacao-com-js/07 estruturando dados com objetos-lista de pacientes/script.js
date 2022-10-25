@@ -63,14 +63,18 @@ const patients = [ // array que conterá objetos que conterão as informações 
     weight: 80,
     height: 177,
   },
+  { 
+    patientName: "Marcela",
+    age: 39,
+    weight: 69,
+    height: 167,
+  },
 ]
 
 let patientsNameList = [];
 for (let patient of patients) {
-  patientsNameList.push(patient.patientName)
-  
+  patientsNameList.push(`O paciente ${patient.patientName} tem ${patient.age} anos, pesa ${patient.weight} kilos e mede ${patient.height} centímetros de altura. 
+`)    
 }
-alert(`Os pacientes ${patientsNameList} possuem respectivamente 
-
-`)
+alert(patientsNameList)
 
