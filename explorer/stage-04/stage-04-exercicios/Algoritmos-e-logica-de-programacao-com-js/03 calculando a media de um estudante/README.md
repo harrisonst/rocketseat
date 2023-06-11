@@ -6,3 +6,5 @@
 [] Tipo de dados: Boolean
 [] if/else
 [] Operadores comparativos
+
+Boas práticas: não ficar repetindo código.

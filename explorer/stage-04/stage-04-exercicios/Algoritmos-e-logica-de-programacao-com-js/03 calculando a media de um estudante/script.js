@@ -21,11 +21,13 @@ thirdNote = Number(thirdNote);
 
 let result = ((firstNote + secondNote + thirdNote) / 3);
 
+result = result.toFixed(2).replace('.', ',')
+
 if (result >= 6) {
-  alert('Parabéns, ' + studentName + '. Sua nota bimestral é ' + result.toFixed(2).replace('.',',') + '. Você foi aprovado!');
+  alert('Parabéns, ' + studentName + '. Sua média bimestral é ' + result + '. Você foi aprovado!');
 
 } else {
-  alert('Olá, ' + studentName + '. Você foi reprovado. Não desanime. Sua nota bimestral é ' + result.toFixed(2).replace('.',',') + '. Dê o seu melhor para a prova de recuperação!');
+  alert('Olá, ' + studentName + '. Não foi desta vez. Estude para sua prova de recuperação. Sua média bimestral é ' + result);
 }
 
 /*    let average = (Number(firstNote) + Number(secondNote) + Number(thirdNote)) / 3;

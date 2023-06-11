@@ -23,7 +23,7 @@
 
 #### 3. Praticar
 - Quanto mais praticar, melhor vai ficar
-- Vai levar tempo, por isso, será necessário parciência no processo
+- Vai levar tempo, por isso, será necessário paciência no processo
 - Quebrar o problema em pequenos pedaços e colocar no código
 
 #### 4. Estrutura de dados e Algoritmos (conceitos teóricos)

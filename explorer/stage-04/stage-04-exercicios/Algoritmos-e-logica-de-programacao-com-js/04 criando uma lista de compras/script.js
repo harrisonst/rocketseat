@@ -17,19 +17,16 @@
 
 // alert('Os produtos digitados foram ' + product1 + ', ' + product2 + ', ' + product3 + ', ' + product4 + ', ' + 
 // product5 + ', ' + product6 + ', ' + product7 + ', ' + product8 + ', ' + product9 + 'e ' + product10 + '.')
-let itens = [];
 
-  for (let item = 0; item < 10; item++){
-  let intemName = prompt('Digite o item' + (item + 1))
+let itensList = []; // aqui fora, esta Array pode ser lida dentro do escopo do for
 
-  itens[item]= intemName
+  for (let position = 0; position < 10; position++){
+  let itemName = prompt('Digite o item' + ' ' + (position + 1))
+
+  itensList[position] = itemName
 }
 
-alert(itens)
-
-
-
-  
+alert(itensList + ' ')
 
 
   

@@ -19,12 +19,19 @@
 let result = prompt("Advinhe o número que estou pensando? Está entre 0 e 10")
 const randomNumber = Math.round(Math.random() * 10)
 
-let xAttempts = 1
+let xAttempts = 1 //xtentativas. variavel de controle. Guarda o número de tentativas que digitei para encontrar o número randômico. Se o valor não for encontrado na primeira tentativa, ele será incrementado. Por isso, usarei abaixo xAttempts++
 
 while(Number(result) != randomNumber) {
   result = prompt("Erro, tente novamente:")
   xAttempts++
 }
 
-alert(`Parabéns! O número que eu pensei foi ${randomNumber} e você advinhou o número em ${xAttempts} tentativas`)
+if (xAttempts == 1){
+  alert(`Uau! Parabéns! O número que eu pensei foi ${randomNumber} e você advinhou o número em apenas ${xAttempts} tentativa.`)
+
+} else {
+  alert(`Parabéns! O número que eu pensei foi ${randomNumber} e você advinhou o número em ${xAttempts} tentativas`)
+}
+
+
 

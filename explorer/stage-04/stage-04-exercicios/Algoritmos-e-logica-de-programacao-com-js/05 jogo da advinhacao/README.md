@@ -8,13 +8,13 @@
 - [ ] Gerar número aleatório utilizando Math()
 
 - Pacote com funcionalidades matemáticas
-- Math.random()
-- Math.round() - Math.ceil() - Math.floor()
-- [ ] Tipo de dado: NaN
+- Math.random() - gera número randômico
+- Math.round() arredonda número decimal para um inteiro mais próximo- Math.ceil() arredonda um número decimal para o inteiro acima - Math.floor() arredonda um número decimal um inteiro abaixo
+- [ ] Tipo de dado: NaN "not a number"
 - não é um número
 - [ ] Tipo de erro: SyntaxError
 - erro de sintaxe; erro de escrita de código
 - [ ] console
 - Pacote com funcionalidades para o console do devtools (browser)
 - [ ] template literals ou template strings
-- interpolação de dados
+- interpolação de dados ${}
