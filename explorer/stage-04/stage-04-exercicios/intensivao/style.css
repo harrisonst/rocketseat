@@ -5,12 +5,38 @@
 }
 
 :root {
-  --fontFamily: 'Mulish', sans-serif;
-  --fontSize-text: '';
+  font-family: 'Mulish', sans-serif;
+  --fontSize-text: 2.5rem;
+  --fontSize-h1: 3.2rem;
+  --fontSize-h2: 2.0rem;
   --fontColor-heading:#B52184;
-
-
-  font-size: 62,5% 
+  font-size: 62.5%;  
 }
 
+body {
+ max-width: 430px;
+}
+
+.astronaut {
+  margin: 0 1.7rem 1.7rem 1.7rem;
+}
+
+h1{
+  font-size: var(--fontSize-h1);
+  font-weight: 900;
+  color: var(--fontColor-heading);
+}
+
+.text {
+  font-size: var(--fontSize-h2);  
+  display:flex;
+  flex-direction: column;
+  align-items: center;  
+}
+.arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3.5rem;
+}
 
