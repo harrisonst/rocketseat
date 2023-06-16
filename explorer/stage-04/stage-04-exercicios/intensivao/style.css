@@ -5,16 +5,20 @@
 }
 
 :root {
-  font-family: 'Mulish', sans-serif;
-  --fontSize-text: 2.5rem;
+  --fontFamily-page: 'Mulish', sans-serif;
+  --fontSize-text-page1: 2rem;
+  --fontSize-text: 1.6rem;
   --fontSize-h1: 3.2rem;
   --fontSize-h2: 2.0rem;
   --fontColor-heading:#B52184;
+  --fontColor-text: #312D64;
+ 
   font-size: 62.5%;  
 }
 
 body {
  max-width: 430px;
+ margin: 0rem;
 }
 
 .astronaut {
@@ -22,13 +26,16 @@ body {
 }
 
 h1{
+  font-family: var(--fontFamily-page);
   font-size: var(--fontSize-h1);
   font-weight: 900;
   color: var(--fontColor-heading);
 }
 
 .text {
-  font-size: var(--fontSize-h2);  
+  font-family: var(--fontFamily-page);
+  font-size: var(--fontSize-h2);
+  color:var(--fontColor-text) ;  
   display:flex;
   flex-direction: column;
   align-items: center;  
@@ -38,5 +45,48 @@ h1{
   flex-direction: column;
   align-items: center;
   margin-top: 3.5rem;
+  margin-bottom: 9rem;
 }
 
+section {  
+  margin: 0rem 4rem 5rem 4rem;  
+}
+
+.naopare{
+  color: var(--fontColor-text);
+  font-size: var(--fontSize-text);
+  padding: 5rem 0rem 5rem 0rem;
+  background: #FFFFFF;
+  box-shadow: 0px 3.31077px 13.2431px rgba(0, 0, 0, 0.25);
+  border-radius: 19.8646px;
+  display: grid;    
+} 
+#yellowmoon{
+ width: 8.1rem;
+ height: 8.1rem;
+}
+
+.sovolta, .sigaseuritmo {
+  color: var(--fontColor-text);
+  font-size: var(--fontSize-text);
+  padding: 0rem 0rem 5rem 0rem;
+  background: #FFFFFF;
+  box-shadow: 0px 3.31077px 13.2431px rgba(0, 0, 0, 0.25);
+  border-radius: 19.8646px;
+}
+
+h2{
+  color: var(--fontColor-heading);
+  font-size: var(--fontSize-text);
+}
+section::before {
+  content: '';
+  width: 100%;
+  background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+  width: 100%;
+  height: 124rem;
+  display: block;
+  position: absolute;
+  left: 0;
+  z-index: -1;  
+}
