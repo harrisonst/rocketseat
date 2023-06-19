@@ -111,12 +111,11 @@ section {
   margin-right: 5.8rem;
 }
 
-
-/* .yellowmoon,  { /*corrigir 
-  width: 8.1rem ;
+ #yellowmoon  { 
+  width: 8.1rem;
   margin-bottom: 2.6rem;
 
-} */
+}
 
 .bluemoon, .pinkmoon {  
  margin-bottom: 2.6rem;
@@ -136,4 +135,10 @@ section {
 
 footer{
   background-color: #FFFFFF;
+  height: 56rem;
+
+  font-family: var(--fontFamily-page);
+  font-size: var(--fontSize-h1);
+  color: var(--fontColor-heading);
+
 }
