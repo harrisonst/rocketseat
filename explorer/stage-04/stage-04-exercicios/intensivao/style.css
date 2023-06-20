@@ -61,7 +61,7 @@ h1{
   /* margin-bottom: 9rem; */
 }
 
-section {  
+.page-2 {  
   background-color: #312D64;
   max-width: 100%;
   padding: 5rem 4rem 5rem 4rem;
@@ -133,12 +133,42 @@ section {
   z-index: -1;  
 } */
 
-footer{
+.page-3 {
   background-color: #FFFFFF;
-  height: 56rem;
+  height: 56rem;  
+}
 
+
+.page3-label {
   font-family: var(--fontFamily-page);
   font-size: var(--fontSize-h1);
   color: var(--fontColor-heading);
+}
+
+.seunome, .email, .digite-mensagem { /*construir forms*/
+  font-family: var(--fontFamily-page);
+  font-size: var(--fontSize-h1);
+  color: var(--fontColor-heading); 
+}
+
+.enviar-mensagem {
+  /* construir botão */
+  font-family: var(--fontFamily-page);
+  font-size: var(--fontSize-headerText);
+  font-weight: 700;
+}
+
+footer{
+  font-family: var(--fontFamily-page);
+  font-size: var(--fontSize-headerText);
+  font-weight: 600px;
+
+  color: #FFFFFF;
+  background: #312D64;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 3.2rem 1.6rem;
 
 }
