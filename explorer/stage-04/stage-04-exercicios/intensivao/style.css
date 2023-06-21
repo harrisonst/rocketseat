@@ -166,27 +166,29 @@ h1{
   font-family: var(--fontFamily-page);
   font-size: var(--fontSize-h1);
   color: var(--fontColor-heading); 
+  background-color: #F9F4FB;;
 
   border: 1.5px solid #312D64;
   border-radius: 16px;
+  border: none;
 
   width: 35rem;
   display: flex;
   margin-bottom: 24px;  
 }
 
-.teste::before {
-  
-}
-
-#img-teste {
-padding: 12px;
+.form-digite-seu-nome img, .form-email img, .form-digite-mensagem img {
+border: none;
 
 display: flex;
 align-items: center;
 
 position: absolute;
 
+}
+
+#digite-mensagem {
+  height: 126px;
 }
 
 #botao-enviar {
