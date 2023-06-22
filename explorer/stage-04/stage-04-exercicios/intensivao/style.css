@@ -17,6 +17,8 @@
   --fontColor-text: #312D64;
  
   font-size: 62.5%;  
+
+  background: black;
 }
 
 body {
@@ -34,7 +36,7 @@ header {
 }
 
 .astronaut {
-  margin: 0 1.7rem 1.7rem 1.7rem;  
+  margin: 0 1.7rem 1.7rem 3.7rem;  
 }
 
 h1{
@@ -229,45 +231,72 @@ footer{
 
 @media (min-width:700px) {
 
+  
  :root{
   --fontSize-h1: 5.8rem;
+  --fontSize-headerText:3.2rem;
  }
  
  body {
-  max-width: 140.4rem;
+  max-width: 144rem;
   max-height: 84rem;
+  background: black;
  } 
 
- header {
+header {
+  height: 75rem;
+}
+ .page-1 {
   display: grid;
   grid-template-areas: 
-  "A D"
-  "B D" 
-  "C D" ;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
+   "A C" 
+   "B C" ;
+  
+  justify-content: center;   
+  align-items: end;
   justify-items: start;
+  
+  background: #F9F4FB;    
 
-  margin-top: 3rem;
+  margin-bottom: 3rem;
+  
+ }
+
+ .astronaut img {
+  width: 71rem;
+  height: 66rem;
+  
  }
  
+ .page-1 div:nth-child(1) {
+  grid-area: C;
+  
+ }
 
- header div:nth-child(1) {
+  .page-1 div:nth-child(2) {
+  grid-area: A;
+ }
+
+ .page-1 div:nth-child(3) {
   grid-area: B;
- }
-
-  header div:nth-child(2) {
-  grid-area: D;
- };
-
- header div:nth-child(3) {
-  grid-area: B;
- }
-
- header div:nth-child(4) {
-   grid-area: C;
-
- }
+  padding-bottom: 2rem;
+  }
  
-}
+  .page-2 {
+  display: flex;
+  
+  }
+
+
+  .page-3 {
+    background-color: #F9F4FB;
+    height: 70.5rem;  
+  
+    padding-top: 8rem;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+  }
+
+  
