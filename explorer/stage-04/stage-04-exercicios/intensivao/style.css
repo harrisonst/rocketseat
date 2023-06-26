@@ -238,10 +238,14 @@ footer{
 
   
  :root{
-  --fontSize-h1: 5.8rem;
-  --fontSize-headerText:3.2rem;
+  --fontSize-pageText: 1.21131rem;
+  --fontSize-headerText: 2.0rem;
+  --fontSize-h1: 3.64294rem;
+  --fontSize-h2: 2.20638rem;
+  --fontSize-subtitle: ;
+   
  }
- 
+
  body {
   max-width: 144rem;
   max-height: 84rem;
@@ -249,9 +253,14 @@ footer{
  } 
 
 header {
-  height: 75rem;
+  width: 90rem;
+  height: 52.25rem;
+
 }
  .page-1 {
+  width: 90rem;
+  height: 52.25rem;
+
   display: grid;
   grid-template-areas: 
    "A C" 
@@ -261,18 +270,40 @@ header {
   align-items: end;
   justify-items: start;
   
-  background: #F9F4FB;    
-
-  margin-bottom: 3rem;
+  background: #F9F4FB;     
   
  }
 
  .astronaut img {
-  width: 71rem;
-  height: 66rem;
-  
+  width: 44.96rem;
+  height: 45.77231rem;  
+ }
+
+ .headerText, h1 {
+  font-size: var(--fontSize-h1);
  }
  
+ .headerText, p {
+  display: grid;
+  justify-items: start;
+  font-size: var(--fontSize-headerText)  
+ }
+
+ .arrow, img {
+  width: 3.66169rem;
+  height: 6.5625rem;
+ }
+
+#yellowmonn {
+  width: 6.0625rem;
+  height: 6.0625rem;
+}
+
+.bluemoon, .pinkmoon {
+  width: 6.0625rem;
+  height: 6.0625rem;
+}
+
  .page-1 div:nth-child(1) {
   grid-area: C;
   
@@ -288,39 +319,75 @@ header {
   }
  
   .page-2 {
-  display: grid;
-  grid-template-columns: 35rem 35rem 35rem; 
-  justify-content: space-between;
-  padding: 4rem 7rem 0rem 7rem;
+  width: 90rem;
 
+  font-size: var(--fontSize-pageText);
+
+  display: grid;
+  grid-template-columns: 23rem 23rem 23rem; 
+  justify-content: space-between;
+  padding: 4rem 7rem 4rem 7rem; 
+
+  }
+ 
+
+  .sectionText {
+    font-size: var(--fontSize-h2);
+    margin-bottom: 1.5rem;
+  }
+  
+  .naopare {
+    margin: 0rem 0rem 5.0rem;
+    padding: 2.6rem;  
+    
+    width: 22.875rem;
+    height: 28rem;
+   
+  } 
+  
+  .sovolta {
+    padding: 2.6rem;
+    margin: 0rem 0rem 5.0rem 0rem;  
+    
+    width: 22.875rem;
+    height: 28rem;
+   
+  }
+  
+  .sigaseuritmo {
+    padding: 2.6rem;
+    margin: 0rem 0rem 5.0rem;
+
+    width: 22.875rem;
+    height: 28rem;
+    
+    
+  }
+  
+  .background-image {    
+    display: flex;
+    width: 40.25rem;
+    height: 38.25rem;
+  }
+
+  .page-3 {
+    padding-top: 6rem;
+    height: 38.25rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
   }
 
   .page-3-div {
-    height: 70.5rem;    
-    padding-top: 8rem;   
-
-    display: grid;
-    grid-template-areas: 
-     "A B";      
-    
-    background: #F9F4FB;    
-  }
-
-  .background-image {    
+    height: 70.5rem;
+    padding-top: 0rem;
     display: flex;
-    width: 40rem;
-    height: 40rem;
-  }
-
-  .form div:nth-child(1) {
-grid-area: A;
+    width: 100%;
+    justify-content: center;
 }
 
-.background-image div:nth-child(2) {
-    grid-area: B;
-  }
 
-  
  
 }
   
