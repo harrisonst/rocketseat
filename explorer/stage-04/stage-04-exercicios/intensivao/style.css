@@ -371,6 +371,7 @@ header {
   }
 
   .page-3 {
+    width: 90rem;
     padding-top: 6rem;
     height: 38.25rem;
 
@@ -387,6 +388,9 @@ header {
     justify-content: center;
 }
 
+footer {
+  width: 90rem;
+}
 
  
 }
