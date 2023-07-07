@@ -250,6 +250,10 @@ footer{
   max-width: 144rem;
   max-height: 84rem;
   background: black;
+  
+  display: grid;
+  justify-content: center;  
+
  } 
 
 header {
@@ -269,6 +273,9 @@ header {
   justify-content: center;   
   align-items: end;
   justify-items: start;
+
+
+  padding: 0rem 0rem 5rem 0rem;
   
   background: #F9F4FB;     
   
