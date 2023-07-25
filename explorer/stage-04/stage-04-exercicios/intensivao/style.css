@@ -297,8 +297,7 @@ header {
  }
 
  .arrow, img {
-  width: 3.66169rem;
-  height: 6.5625rem;
+   height: 6.5625rem;
  }
 
 #yellowmonn {
@@ -333,10 +332,13 @@ header {
   display: grid;
   grid-template-columns: 23rem 23rem 23rem; 
   justify-content: space-between;
-  padding: 4rem 7rem 4rem 7rem; 
+  padding: 4rem 7rem 0rem 7rem; 
 
   }
  
+  .text {
+    margin-right: 0rem;
+}
 
   .sectionText {
     font-size: var(--fontSize-h2);
@@ -348,7 +350,7 @@ header {
     padding: 2.6rem;  
     
     width: 22.875rem;
-    height: 28rem;
+    height: 32rem;
    
   } 
   
@@ -357,7 +359,7 @@ header {
     margin: 0rem 0rem 5.0rem 0rem;  
     
     width: 22.875rem;
-    height: 28rem;
+    height: 32rem;
    
   }
   
@@ -366,7 +368,7 @@ header {
     margin: 0rem 0rem 5.0rem;
 
     width: 22.875rem;
-    height: 28rem;
+    height: 32rem;
     
     
   }
