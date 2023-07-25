@@ -275,7 +275,7 @@ header {
   justify-items: start;
 
 
-  padding: 0rem 0rem 5rem 0rem;
+  padding: 0rem 0rem 5rem 5rem;
   
   background: #F9F4FB;     
   
@@ -283,7 +283,7 @@ header {
 
  .astronaut img {
   width: 44.96rem;
-  height: 45.77231rem;  
+  height: 45.5rem;  
  }
 
  .headerText, h1 {
