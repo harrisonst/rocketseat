@@ -390,18 +390,21 @@ header {
   } 
   
   .page-3 {
+    width: 90rem;
     display: flex;
     flex-direction: column;
     align-items: center;   
     padding: inherit;
+    
     
   }
   
   .page-3-div {
     height: 70.5rem;
     display: flex;
-    width: 100%;
-    justify-content: center;
+    width: 90rem;
+    justify-content: space-between;
+    margin-left: ;
   }
   
   .background-image {    
