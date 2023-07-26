@@ -242,6 +242,8 @@ footer{
 
 @media (min-width:700px) {
 
+
+
   * {
     margin: 0;
     padding: 0;
@@ -253,7 +255,7 @@ footer{
   --fontSize-headerText: 2.0rem;
   --fontSize-h1: 3.64294rem;
   --fontSize-h2: 2.20638rem;
-  --fontSize-subtitle: ;
+  --fontSize-subtitle: 2.625rem;
    
  }
 
@@ -267,11 +269,11 @@ footer{
 
  } 
 
-header {
+  header {
   width: 90rem;
   height: 52.25rem;
 
-}
+  }
  .page-1 {
   width: 90rem;
   height: 50.25rem;
@@ -316,15 +318,15 @@ header {
   flex-shrink: 0;
  }
 
-#yellowmonn {
+  #yellowmonn {
   width: 6.0625rem;
   height: 6.0625rem;
-}
+  }
 
-.bluemoon, .pinkmoon {
+  .bluemoon, .pinkmoon {
   width: 6.0625rem;
   height: 6.0625rem;
-}
+  }
 
  .page-1 div:nth-child(1) {
   grid-area: C;
@@ -354,7 +356,7 @@ header {
  
   .text {
     margin-right: 0rem;
-}
+  }
 
   .sectionText {
     font-size: var(--fontSize-h2);
@@ -362,7 +364,7 @@ header {
   }
   
   .naopare {
-    margin: 0rem 0rem 5.0rem;
+    margin: 0rem 2.5rem 5.0rem 2rem;
     padding: 2.6rem;  
     
     width: 22.875rem;
@@ -372,7 +374,7 @@ header {
   
   .sovolta {
     padding: 2.6rem;
-    margin: 0rem 0rem 5.0rem 0rem;  
+    margin: 0rem 0rem 5.0rem;  
     
     width: 22.875rem;
     height: 32rem;
@@ -385,8 +387,7 @@ header {
 
     width: 22.875rem;
     height: 32rem;
-    
-    
+       
   } 
   
   .page-3 {
@@ -394,17 +395,28 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;   
-    padding: inherit;
-    
-    
+    padding: inherit; 
+    height: 40rem;
   }
   
   .page-3-div {
     height: 70.5rem;
     display: flex;
     width: 90rem;
+   
     justify-content: space-between;
-    margin-left: ;
+    padding-left:  5rem;
+    
+  }
+
+  .form {
+    padding-top: 3rem;    
+  }
+
+  .subtitle {
+    font-size: var(--fontSize-subtitle);
+    color: var(--fontColor-heading);
+    font-weight: 900;
   }
   
   .background-image {    
@@ -414,10 +426,26 @@ header {
      
   }
 
-footer {
+  .form-digite-seu-nome .form-email {       
+    padding: 0.75rem 1rem 1rem 1rem;      
+      }
+    
+  .form-digite-mensagem {
+      width: 35rem; 
+      height: 10rem;
+      }        
+      
+  .entre-em-contato {
+        margin-bottom: 1rem;
+      }    
+
+    .enviar-mensagem {
+        margin-top: 3.5rem;
+      }
+  footer {
   width: 90rem;
+  }
+
 }
 
- 
-}
   
