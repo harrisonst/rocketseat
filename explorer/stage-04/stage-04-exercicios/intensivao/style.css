@@ -125,12 +125,12 @@ flex-shrink: 0;
 
  #yellowmoon  { 
   width: 8.1rem;
-  margin-bottom: 2.6rem;
+  margin-bottom: 1rem;
 
 }
 
 .bluemoon, .pinkmoon {  
- margin-bottom: 2.6rem;
+ margin-bottom: 1rem;
 }
 
 .page-3 {
@@ -316,16 +316,23 @@ footer{
   width: 3.66169rem;
   height: 6.5625rem;
   flex-shrink: 0;
+  cursor: pointer ;
+ }
+
+ .arrow:hover {  
+  opacity: 0.5;  
  }
 
   #yellowmonn {
   width: 6.0625rem;
   height: 6.0625rem;
+ 
   }
 
-  .bluemoon, .pinkmoon {
+  .bluemoon .pinkmoon {
   width: 6.0625rem;
   height: 6.0625rem;
+ 
   }
 
  .page-1 div:nth-child(1) {
@@ -442,6 +449,12 @@ footer{
     .enviar-mensagem {
         margin-top: 3.5rem;
       }
+
+      #botao-enviar:hover {
+        color: #7c7c8a;
+        opacity: 0.8;
+        cursor: pointer;
+      }  
   footer {
   width: 90rem;
   }
